@@ -7,7 +7,7 @@ import ExerciseVideos from '../components/ExerciseVideos';
 import SimilarExercises from '../components/SimilarExercises';
 import { exerciseOptions, fetchData, youtubeOptions } from '../utils/fetchData';
 
-const ExerciseDetail = () => {
+export default function ExerciseDetail() {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const [exerciseVideos, setExerciseVideos] = useState([]);
   const [targetMuscleExercises, setTargetMuscleExercises] = useState([]);
@@ -46,6 +46,4 @@ const ExerciseDetail = () => {
       <SimilarExercises targetMuscleExercises={targetMuscleExercises} equipmentExercises={equipmentExercises} />
     </Box>
   );
-};
-
-export default ExerciseDetail;
+}
