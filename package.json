@@ -1,7 +1,13 @@
 {
   "name": "react-fitness",
   "version": "0.1.0",
-  "private": true,
+  "description": "React fitness app using rapidapi",
+  "main": "src/index.js",
+  "author": "Saud M.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/saud06/react-fitness.git"
+  },
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",

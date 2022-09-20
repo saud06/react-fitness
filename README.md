@@ -1,5 +1,3 @@
-# React Fitness Application
+# React Fitness App Using RapidAPI
 
-![React Fitness Application](https://i.ibb.co/Yt9spGc/image.png)
-
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+![React Fitness App Using RapidAPI](https://i.ibb.co/Yt9spGc/image.png)
